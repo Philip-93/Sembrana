@@ -1,0 +1,15 @@
+{
+    "version": 3,
+    "mappings": "AAAA,qBAAqB;AACrB,AAAA,IAAI;AACJ,IAAI,CAAC;EACH,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACvB;;AACD,AAAA,CAAC;AACD,CAAC,AAAA,QAAQ;AACT,CAAC,AAAA,OAAO,CAAC;EACP,UAAU,EAAE,OAAO;CACpB",
+    "sources": [
+        "main.scss",
+        "partials/_breakpoints.scss",
+        "partials/_colors.scss",
+        "partials/_fonts.scss",
+        "partials/_mixins.scss",
+        "partials/_navigation.scss",
+        "partials/_footer.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
