@@ -1,0 +1,34 @@
+.nav {
+  height: 56px;
+  width: 100vw;
+  background-color: $dark-green;
+  &__main-container {
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    padding: 12px 40px;
+  }
+  &__logo-container {
+    width: 155.642px;
+    height: 26.274px;
+    &--logo {
+      width: 155.642px;
+      height: 26.274px;
+    }
+  }
+  &__pages-container {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__link {
+    text-decoration: none;
+  }
+  &__title {
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    font-family: lato-bold;
+  }
+}
