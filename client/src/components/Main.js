@@ -1,6 +1,8 @@
-import acelga from "../assets/Images/Acelga.jpg";
-import plants from "../assets/Illustrations/plants.svg";
 import React from "react";
+import plants from "../assets/Illustrations/plants.svg";
+import asesoria from "../assets/Illustrations/Mujer_(Verde2).svg";
+import mantenimiento from "../assets/Illustrations/Carretilla.svg";
+import instalacion from "../assets/Illustrations/Huerto-Hombre.svg";
 
 function Main() {
   return (
@@ -23,46 +25,72 @@ function Main() {
           <h3 className="main__tiles--sub">Clientes Satisfechos</h3>
         </div>
       </div>
-      <div className="main__content-container">
-        <div className="main__content-container--text">
-          <h1 className="main__content-container--title">Quienes Somos</h1>
-          <h2 className="main__content-container--sub">
+      <div className="main__first-container">
+        <div className="main__first-container--text">
+          <h1 className="main__first-container--title">Quienes Somos</h1>
+          <h2 className="main__first-container--sub">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
             repudiandae laborum earum, id sit assumenda. Mollitia soluta ratione
             amet nisi ab praesentium, perspiciatis voluptatum neque porro sunt
             error deserunt facere?
           </h2>
-          <button className="main__content-container--button">
+          <button className="main__first-container--button">
             Nuestra Historia
           </button>
         </div>
-        <div className="main__content-container--icon">
+        <div className="main__first-container--icon">
           <img
-            className="main__content-container--vector"
+            className="main__first-container--vector"
             src={plants}
             alt="Sembrana"
           />
         </div>
       </div>
-      <div className="main__content-container">
-        <div className="main__content-container--icon">
-          <img
-            className="main__content-container--vector"
-            src={plants}
-            alt="Sembrana"
-          />
-        </div>
-        <div className="main__content-container--text">
-          <h1 className="main__content-container--title">Quienes Somos</h1>
-          <h2 className="main__content-container--sub">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-            repudiandae laborum earum, id sit assumenda. Mollitia soluta ratione
-            amet nisi ab praesentium, perspiciatis voluptatum neque porro sunt
-            error deserunt facere?
-          </h2>
-          <button className="main__content-container--button">
-            Nuestra Historia
-          </button>
+      <div className="main__second-container">
+        <h1 className="main__second-container--title">Ofrecemos</h1>
+        <div className="main__second-container--cardcontainer">
+          <div className="main__second-container--card">
+            <img
+              className="main__second-container--image"
+              src={asesoria}
+              alt="Sembrana"
+            />
+            <h2 className="main__second-container--label">Asesoría</h2>
+            <h3 className="main__second-container--sublabel">
+              Cuenta con nosotros para asesorarte y despejar cualquier
+              inquietud, te guiamos para escoger los vegetales, hortalizas o
+              frutas para tu huerto y de igual manera durante todo el ciclo de
+              cultivo
+            </h3>
+          </div>
+          <div className="main__second-container--card">
+            <img
+              className="main__second-container--image"
+              src={instalacion}
+              alt="Sembrana"
+            />
+            <h2 className="main__second-container--label">Instalación</h2>
+            <h3 className="main__second-container--sublabel">
+              Diseñamos e instalamos tu huerto acorde a tus necesidades,
+              adaptándolo al espacio y a las condiciones de luz en el lugar
+              seleccionado con los módulos de cultivo y plantas que tu
+              seleccionas para la primera y siguientes cosechas.
+            </h3>
+          </div>
+          <div className="main__second-container--card">
+            <img
+              className="main__second-container--image"
+              src={mantenimiento}
+              alt="Sembrana"
+            />
+            <h2 className="main__second-container--label">Mantenimiento</h2>
+            <h3 className="main__second-container--sublabel">
+              Nuestro equipo capacitado está a tu disposición. Programa con
+              nosotros el mantenimiento de tu huerto de forma periódica o según
+              tus necesidades, también te entrenamos en los cuidados de tu
+              huerto.
+            </h3>
+          </div>
         </div>
       </div>
       <div className="main__banner-container">

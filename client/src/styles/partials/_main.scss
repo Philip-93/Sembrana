@@ -36,7 +36,7 @@
       }
     }
   }
-  &__content-container {
+  &__first-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -89,6 +89,36 @@
       background-color: rgba($black, 0.3);
       height: 200px;
       width: 100vw;
+    }
+  }
+  &__second-container {
+    padding: 20px 40px;
+
+    &--title {
+      font-family: fertigo;
+      font-size: 2.25rem;
+      text-align: center;
+    }
+    &--cardcontainer {
+      display: flex;
+      justify-content: space-between;
+    }
+    &--card {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    &--image {
+      height: 200px;
+    }
+    &--label {
+      font-family: lato-bold;
+    }
+    &--sublabel {
+      font-family: lato-regular;
+      font-size: 1rem;
+      width: 400px;
+      text-align: center;
     }
   }
 }
