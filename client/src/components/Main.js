@@ -3,6 +3,7 @@ import plants from "../assets/Illustrations/plants.svg";
 import asesoria from "../assets/Illustrations/Mujer_(Verde2).svg";
 import mantenimiento from "../assets/Illustrations/Carretilla.svg";
 import instalacion from "../assets/Illustrations/Huerto-Hombre.svg";
+import { Link } from "react-router-dom";
 
 function Main() {
   return (
@@ -20,10 +21,6 @@ function Main() {
           <h2 className="main__tiles--title">500</h2>
           <h3 className="main__tiles--sub">Clientes Satisfechos</h3>
         </div>
-        <div className="main__tiles--tile">
-          <h2 className="main__tiles--title">500</h2>
-          <h3 className="main__tiles--sub">Clientes Satisfechos</h3>
-        </div>
       </div>
       <div className="main__first-container">
         <div className="main__first-container--text">
@@ -34,9 +31,11 @@ function Main() {
             amet nisi ab praesentium, perspiciatis voluptatum neque porro sunt
             error deserunt facere?
           </h2>
-          <button className="main__first-container--button">
-            Nuestra Historia
-          </button>
+          <Link to="/nuestra-historia">
+            <button className="main__first-container--button">
+              Nuestra Historia
+            </button>
+          </Link>
         </div>
         <div className="main__first-container--icon">
           <img
