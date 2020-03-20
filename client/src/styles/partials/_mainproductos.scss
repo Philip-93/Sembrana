@@ -1,0 +1,134 @@
+.mainp {
+  &__tiles {
+    width: 100vw;
+    height: 116px;
+    justify-content: space-between;
+    display: flex;
+    &--title {
+      font-family: fertigo;
+      font-size: 20px;
+      margin: 0;
+    }
+    &--sub {
+      font-family: lato-bold;
+    }
+    &--tileo {
+      width: 480px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba($silver, 0.3);
+      &:hover {
+        color: white;
+        background-color: $dark-grey;
+      }
+    }
+    &--tile {
+      width: 480px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      &:hover {
+        color: white;
+        background-color: $dark-grey;
+      }
+    }
+  }
+  &__first-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 40px;
+    height: 550px;
+    background-color: rgba($color: $silver, $alpha: 0.1);
+
+    &--text {
+      width: 650px;
+    }
+    &--title {
+      font-family: fertigo;
+      font-size: 2.25rem;
+    }
+    &--sub {
+      font-family: lato-regular;
+      font-size: 1.25rem;
+    }
+    &--button {
+      font-family: lato-bold;
+      background-color: $white;
+      font-size: 1rem;
+      border: none;
+      width: 150px;
+      height: 40px;
+      border-radius: 2px;
+      &:hover {
+        color: $white;
+        background: $dark-grey;
+      }
+    }
+    &--carousel {
+    }
+    &--slide {
+      display: flex;
+      height: 455px;
+      width: 660px;
+    }
+    &--vector {
+      height: 455px;
+      width: 660px;
+      border-radius: 8px;
+    }
+  }
+  &__banner-container {
+    background-image: url("../assets/Images/Acelga1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    font-family: fertigo;
+    color: $white;
+    font-size: 50px;
+    &--image {
+      border-top: 2px solid $light-green;
+      border-bottom: 2px solid $light-green;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba($black, 0.3);
+      height: 200px;
+      width: 100vw;
+    }
+  }
+  &__second-container {
+    padding: 20px 40px;
+
+    &--title {
+      font-family: fertigo;
+      font-size: 2.25rem;
+      text-align: center;
+    }
+    &--cardcontainer {
+      display: flex;
+      justify-content: space-around;
+    }
+    &--card {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    &--image {
+      height: 200px;
+    }
+    &--label {
+      font-family: lato-bold;
+    }
+    &--sublabel {
+      font-family: lato-regular;
+      font-size: 1rem;
+      width: 300px;
+      text-align: center;
+    }
+  }
+}

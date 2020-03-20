@@ -1,0 +1,75 @@
+.mainh {
+  &__description {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &--frame {
+      background-image: url("../assets/Illustrations/Frame.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      height: 84%;
+      width: 75%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    &--p {
+      font-size: 1.125rem;
+      line-height: 1.8;
+      font-family: lato-bold;
+      margin-top: 0;
+      width: 70%;
+      height: 16%;
+      text-align: center;
+    }
+  }
+  &__banner {
+    display: flex;
+    justify-content: center;
+    &--image {
+      width: 480px;
+      height: 330px;
+    }
+  }
+  &__main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+    background-color: rgba($color: $silver, $alpha: 0.1);
+
+    &--title {
+      font-family: fertigo;
+    }
+    &--divider {
+      width: 300px;
+      margin: 20px;
+    }
+    &--text {
+      width: 500px;
+      line-height: 1.8;
+      text-align: center;
+      font-family: lato-regular;
+      font-size: 1rem;
+    }
+  }
+  &__lastpic-container {
+    display: flex;
+    justify-content: center;
+    &--pic {
+      align-self: center;
+      background-image: url("../assets/Images/planting.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 519.22px;
+      width: 1290px;
+    }
+  }
+}

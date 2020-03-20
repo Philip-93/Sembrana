@@ -1,5 +1,8 @@
 import React from "react";
+import fern from "../assets/Images/fern.jpg";
+import papas from "../assets/Images/papas.jpg";
 import plants from "../assets/Illustrations/plants.svg";
+import grooming from "../assets/Images/grooming.jpg";
 import asesoria from "../assets/Illustrations/Mujer_(Verde2).svg";
 import mantenimiento from "../assets/Illustrations/Carretilla.svg";
 import instalacion from "../assets/Illustrations/Huerto-Hombre.svg";
@@ -31,7 +34,7 @@ function Main() {
             amet nisi ab praesentium, perspiciatis voluptatum neque porro sunt
             error deserunt facere?
           </h2>
-          <Link to="/nuestra-historia">
+          <Link to="/historia">
             <button className="main__first-container--button">
               Nuestra Historia
             </button>
@@ -40,7 +43,7 @@ function Main() {
         <div className="main__first-container--icon">
           <img
             className="main__first-container--vector"
-            src={plants}
+            src={fern}
             alt="Sembrana"
           />
         </div>

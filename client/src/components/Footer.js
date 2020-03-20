@@ -19,7 +19,7 @@ function Footer() {
           <img className="footer__tiles--image" src={mail} alt="Sembrana" />
           <h3 className="footer__tiles--sub">
             <a
-              class="footer__tiles--email"
+              className="footer__tiles--email"
               href="mailto:contacto@sembrana.com.ec"
             >
               CONTACTO@SEMBRANA.COM.EC

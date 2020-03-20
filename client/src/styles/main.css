@@ -81,7 +81,7 @@ body {
 }
 
 .nav__pages-container {
-  width: 300px;
+  width: 350px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -95,11 +95,16 @@ body {
 
 .nav__link {
   text-decoration: none;
+  color: #ffffff;
+}
+
+.nav__link:focus,
+.nav__link :hover {
+  color: #68c63c;
 }
 
 .nav__title {
   text-decoration: none;
-  color: white;
   margin: 0;
   font-family: lato-bold;
 }
@@ -323,11 +328,6 @@ body {
   background-color: rgba(175, 175, 175, 0.3);
 }
 
-.main__tiles--tileo:hover {
-  color: white;
-  background-color: #323232;
-}
-
 .main__tiles--tile {
   width: 480px;
   display: -webkit-box;
@@ -343,11 +343,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.main__tiles--tile:hover {
-  color: white;
-  background-color: #323232;
 }
 
 .main__first-container {
@@ -394,7 +389,9 @@ body {
 }
 
 .main__first-container--vector {
-  height: 450px;
+  height: 455px;
+  width: 660px;
+  border-radius: 8px;
 }
 
 .main__banner-container {
@@ -470,5 +467,492 @@ body {
   font-size: 1rem;
   width: 400px;
   text-align: center;
+}
+
+.herop {
+  background-image: url("../assets/Images/Vertical1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 616.312px;
+}
+
+.herop__main-container {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100vw;
+  height: 616.312px;
+}
+
+.herop__text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 616.312px;
+  padding: 65px 0 0 200px;
+}
+
+.herop__text-container--title {
+  font-family: fertigo;
+  color: #ffffff;
+  font-size: 3.75rem;
+  margin: 0em;
+}
+
+.herop__text-container--subtitle {
+  font-family: lato-bold;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.mainp__tiles {
+  width: 100vw;
+  height: 116px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mainp__tiles--title {
+  font-family: fertigo;
+  font-size: 20px;
+  margin: 0;
+}
+
+.mainp__tiles--sub {
+  font-family: lato-bold;
+}
+
+.mainp__tiles--tileo {
+  width: 480px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(175, 175, 175, 0.3);
+}
+
+.mainp__tiles--tileo:hover {
+  color: white;
+  background-color: #323232;
+}
+
+.mainp__tiles--tile {
+  width: 480px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainp__tiles--tile:hover {
+  color: white;
+  background-color: #323232;
+}
+
+.mainp__first-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 40px;
+  height: 550px;
+  background-color: rgba(175, 175, 175, 0.1);
+}
+
+.mainp__first-container--text {
+  width: 650px;
+}
+
+.mainp__first-container--title {
+  font-family: fertigo;
+  font-size: 2.25rem;
+}
+
+.mainp__first-container--sub {
+  font-family: lato-regular;
+  font-size: 1.25rem;
+}
+
+.mainp__first-container--button {
+  font-family: lato-bold;
+  background-color: #ffffff;
+  font-size: 1rem;
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 2px;
+}
+
+.mainp__first-container--button:hover {
+  color: #ffffff;
+  background: #323232;
+}
+
+.mainp__first-container--slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 455px;
+  width: 660px;
+}
+
+.mainp__first-container--vector {
+  height: 455px;
+  width: 660px;
+  border-radius: 8px;
+}
+
+.mainp__banner-container {
+  background-image: url("../assets/Images/Acelga1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  font-family: fertigo;
+  color: #ffffff;
+  font-size: 50px;
+}
+
+.mainp__banner-container--image {
+  border-top: 2px solid #68c63c;
+  border-bottom: 2px solid #68c63c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 200px;
+  width: 100vw;
+}
+
+.mainp__second-container {
+  padding: 20px 40px;
+}
+
+.mainp__second-container--title {
+  font-family: fertigo;
+  font-size: 2.25rem;
+  text-align: center;
+}
+
+.mainp__second-container--cardcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.mainp__second-container--card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mainp__second-container--image {
+  height: 200px;
+}
+
+.mainp__second-container--label {
+  font-family: lato-bold;
+}
+
+.mainp__second-container--sublabel {
+  font-family: lato-regular;
+  font-size: 1rem;
+  width: 300px;
+  text-align: center;
+}
+
+.heroh {
+  background-image: url("../assets/Images/Gardeners.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 616.312px;
+}
+
+.heroh__main-container {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100vw;
+  height: 616.312px;
+}
+
+.heroh__text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 616.312px;
+  padding: 65px 0 0 200px;
+}
+
+.heroh__text-container--title {
+  font-family: fertigo;
+  color: #ffffff;
+  font-size: 3.75rem;
+  margin: 0em;
+}
+
+.heroh__text-container--subtitle {
+  font-family: lato-bold;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.mainh__description {
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainh__description--frame {
+  background-image: url("../assets/Illustrations/Frame.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 84%;
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mainh__description--p {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  font-family: lato-bold;
+  margin-top: 0;
+  width: 70%;
+  height: 16%;
+  text-align: center;
+}
+
+.mainh__banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainh__banner--image {
+  width: 480px;
+  height: 330px;
+}
+
+.mainh__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 40px;
+  background-color: rgba(175, 175, 175, 0.1);
+}
+
+.mainh__main--title {
+  font-family: fertigo;
+}
+
+.mainh__main--divider {
+  width: 300px;
+  margin: 20px;
+}
+
+.mainh__main--text {
+  width: 500px;
+  line-height: 1.8;
+  text-align: center;
+  font-family: lato-regular;
+  font-size: 1rem;
+}
+
+.mainh__lastpic-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainh__lastpic-container--pic {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  background-image: url("../assets/Images/planting.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 519.22px;
+  width: 1290px;
+}
+
+.veg {
+  padding: 20px 40px;
+  background-color: rgba(175, 175, 175, 0.1);
+}
+
+.veg__title {
+  font-family: fertigo;
+  font-size: 2.25rem;
+  text-align: center;
+}
+
+.veg__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.veg__card-container {
+  width: 350px;
+}
+
+.veg__card-body {
+  height: 85px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #08544d;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.veg__card-body--title {
+  font-family: lato-bold;
+  margin: 20px 0 5px 0;
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin: 0;
+}
+
+.veg__card-body--subtitle {
+  font-family: lato-regular;
+  margin-bottom: 10pxpx;
+  font-size: 16px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.veg__image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #ffffff;
+}
+
+.veg__image-container--vector {
+  height: 130px;
+  margin: 40px;
+}
+
+.veg__card-bodyone {
+  padding: 20px 20px;
+  background-color: rgba(175, 175, 175, 0.5);
+  height: 260px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.veg__card-bodyone--title {
+  font-family: lato-bold;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.veg__card-bodyone--description {
+  font-family: lato-regular;
+  font-size: 16px;
 }
 /*# sourceMappingURL=main.css.map */

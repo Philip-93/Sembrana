@@ -19,10 +19,6 @@
       justify-content: center;
       align-items: center;
       background-color: rgba($silver, 0.3);
-      &:hover {
-        color: white;
-        background-color: $dark-grey;
-      }
     }
     &--tile {
       width: 480px;
@@ -30,10 +26,6 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      &:hover {
-        color: white;
-        background-color: $dark-grey;
-      }
     }
   }
   &__first-container {
@@ -70,7 +62,9 @@
     &--icon {
     }
     &--vector {
-      height: 450px;
+      height: 455px;
+      width: 660px;
+      border-radius: 8px;
     }
   }
   &__banner-container {

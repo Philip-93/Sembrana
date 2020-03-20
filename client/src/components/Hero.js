@@ -1,6 +1,6 @@
 import React from "react";
 
-function Navigation() {
+function Hero() {
   return (
     <div className="hero">
       <div className="hero__main-container">
@@ -15,4 +15,4 @@ function Navigation() {
   );
 }
 
-export default Navigation;
+export default Hero;

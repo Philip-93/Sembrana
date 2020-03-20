@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "name": "Tomate",
+    "latin": "(Solanum lycopersicum)",
+    "image": "",
+    "nutrition": "Valor Nutricional",
+    "description": "Además de su rico sabor, en el tomate encontramos muy pocas calorías, derivadas en el 74% de los carbohidratos complejos que lo componen. Casi no tiene grasas y tiene un alto contenido acuoso que supera el 90%. A continuación vemos el análisis nutricional del tomate, comenzando por los macronutrientes, es decir, hidratos, proteínas y grasas."
+  },
+  {
+    "id": "2",
+    "name": "Pimiento",
+    "latin": "(Capsicum)",
+    "image": "",
+    "nutrition": "Valor Nutricional",
+    "description": "Los pimientos están compuestos principalmente por agua y después por los hidratos de carbono, su aporte calórico y proteico es muy bajo, aunque es una buena fuente de fibra. Entre las vitaminas tenemos que destacar las del tipo A, E, B1, B2 y B3, además del ácido fólico."
+  },
+  {
+    "id": "1",
+    "name": "Tomate",
+    "latin": "(Solanum lycopersicum)",
+    "image": "",
+    "nutrition": "Valor Nutricional",
+    "description": "Además de su rico sabor, en el tomate encontramos muy pocas calorías, derivadas en el 74% de los carbohidratos complejos que lo componen. Casi no tiene grasas y tiene un alto contenido acuoso que supera el 90%. A continuación vemos el análisis nutricional del tomate, comenzando por los macronutrientes, es decir, hidratos, proteínas y grasas."
+  }
+]

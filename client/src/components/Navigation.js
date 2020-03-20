@@ -16,19 +16,19 @@ function Navigation() {
           </Link>
         </div>
         <div className="nav__pages-container">
-          <div className="nav__servicios-container">
-            <Link to="/servicios" className="nav__link">
-              <h4 className="nav__title">Servicios</h4>
-            </Link>
-          </div>
           <div className="nav__productos-container">
-            <Link to="productos" className="nav__link">
+            <Link to="/productos" className="nav__link">
               <h4 className="nav__title">Productos</h4>
             </Link>
           </div>
           <div className="nav__nuestra-historia-container">
-            <Link to="/nuestra-historia" className="nav__link">
+            <Link to="/historia" className="nav__link">
               <h4 className="nav__title">Nuestra Historia</h4>
+            </Link>
+          </div>
+          <div className="nav__servicios-container">
+            <Link to="/contactanos" className="nav__link">
+              <h4 className="nav__title">Contactanos</h4>
             </Link>
           </div>
         </div>

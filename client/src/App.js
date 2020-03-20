@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import Navigation from "./components/Navigation";
+import Productos from "./components/Productos";
+import NuestraHistoria from "./components/NuestraHistoria";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 import "./styles/main.css";
@@ -11,7 +13,9 @@ export default class App extends Component {
       <Router>
         <Navigation />
         <Switch>
-          <Route path="/" component={Home} exact />
+          <Route path="/" exact component={Home} />
+          <Route path="/Productos" component={Productos} />
+          <Route path="/Historia" component={NuestraHistoria} />
         </Switch>
         <Footer />
       </Router>
