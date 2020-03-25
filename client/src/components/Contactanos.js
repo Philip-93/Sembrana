@@ -1,4 +1,4 @@
-import divider2 from "../assets/Illustrations/divider2.svg";
+import divider2g from "../assets/Illustrations/divider2g.svg";
 import React from "react";
 
 function Contacto() {
@@ -8,7 +8,7 @@ function Contacto() {
         <h1 className="contacto__title-container--title">Empecémos</h1>
         <img
           className="contacto__title-container--divider"
-          src={divider2}
+          src={divider2g}
           alt="Sembrana"
         />
         <h2 className="contacto__title-container--subtitle">

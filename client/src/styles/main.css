@@ -1088,12 +1088,13 @@ body {
 }
 
 .contacto {
+  background-image: url("../assets/Images/productoshero1.jpg");
+  background-color: deeppink;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 950px;
   padding-top: 80px;
-  background-color: #ffffff;
 }
 
 .contacto__title-container {
@@ -1116,6 +1117,7 @@ body {
   font-family: fertigo;
   font-size: 2.25rem;
   margin: 0;
+  color: #ffffff;
 }
 
 .contacto__title-container--divider {
@@ -1124,6 +1126,7 @@ body {
 }
 
 .contacto__title-container--subtitle {
+  color: #ffffff;
   font-family: lato-regular;
   font-size: 1.25rem;
   width: 570px;
@@ -1152,7 +1155,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-left: 285px;
-  background-color: #08544d;
+  background-color: rgba(8, 84, 77, 0.6);
   border-radius: 10px;
   margin-top: 50px;
 }

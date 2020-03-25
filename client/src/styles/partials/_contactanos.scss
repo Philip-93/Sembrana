@@ -1,13 +1,11 @@
 .contacto {
-  // background-image: url("../assets/Illustrations/Fondo.png");
-  // opacity: 0.5;
+  background-image: url("../assets/Images/productoshero1.jpg");
+  background-color: deeppink;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 950px;
   padding-top: 80px;
-  background-color: $white;
-
   &__title-container {
     display: flex;
     justify-content: center;
@@ -17,12 +15,15 @@
       font-family: fertigo;
       font-size: 2.25rem;
       margin: 0;
+      color: $white;
     }
     &--divider {
       width: 300px;
       margin: 20px;
     }
     &--subtitle {
+      color: $white;
+
       font-family: lato-regular;
       font-size: 1.25rem;
       width: 570px;
@@ -42,7 +43,7 @@
     align-items: center;
     flex-direction: column;
     margin-left: 285px;
-    background-color: rgba($dark-green, 1);
+    background-color: rgba($dark-green, 0.6);
     border-radius: 10px;
     margin-top: 50px;
   }
