@@ -5,10 +5,8 @@ function HeroHistoria() {
     <div className="heroh">
       <div className="heroh__main-container">
         <div className="heroh__text-container">
-          <h1 className="heroh__text-container--title">Quienes Somos</h1>
-          <h2 className="heroh__text-container--subtitle">
-            Lorem Ipsum educt.
-          </h2>
+          <h1 className="heroh__text-container--title">Quienes </h1>
+          <h1 className="heroh__text-container--title"> Somos</h1>
         </div>
       </div>
     </div>

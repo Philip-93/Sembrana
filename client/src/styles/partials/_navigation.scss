@@ -3,6 +3,7 @@
   width: 100vw;
   background-color: $dark-green;
   position: fixed;
+  z-index: 1;
   &__main-container {
     display: flex;
     justify-content: space-between;

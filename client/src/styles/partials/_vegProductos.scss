@@ -1,32 +1,57 @@
 .veg {
   padding: 20px 40px;
   background-color: rgba($color: $silver, $alpha: 0.1);
+  height: 750px;
 
+  &__title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
   &__title {
     font-family: fertigo;
     font-size: 2.25rem;
     text-align: center;
+    margin: 0px;
   }
-  &__flex {
-    display: flex;
+  &__divider {
+    width: 21.875rem;
+    align-self: center;
+    margin: 1.25rem;
   }
-
+  &__carousel-provider {
+    margin-left: 85px;
+  }
+  &__slider {
+  }
   &__card-container {
     width: 350px;
+    box-shadow: 3px 3px 5px 0px #ccc;
+    border-radius: 25px;
+    margin-top: 25px;
+    &:hover {
+      transform: scale(1.01);
+    }
+  }
+  &__filter {
+    filter: grayscale(1);
+    &:hover {
+      filter: grayscale(0);
+    }
   }
   &__card-body {
-    height: 85px;
+    height: 70px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     background-color: $dark-green;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 
     &--title {
       font-family: lato-bold;
-      margin: 20px 0 5px 0;
       font-size: 1.5rem;
       color: $white;
       margin: 0;
@@ -39,19 +64,52 @@
       margin: 0;
     }
   }
+  &__button-container {
+    position: relative;
+    &--back {
+      position: absolute;
+      height: 90px;
+      left: -80px;
+      width: 30px;
+      bottom: 296px;
+      background: 0;
+      border: 0;
+      outline: none;
+      filter: grayscale(1);
+      &:hover {
+        filter: grayscale(0);
+      }
+    }
+    &--next {
+      position: absolute;
+      height: 90px;
+      width: 30px;
+      bottom: 147px;
+      right: 0;
+      background: 0;
+      border: 0;
+      outline: none;
+      filter: grayscale(1);
+      &:hover {
+        filter: grayscale(0);
+      }
+    }
+  }
   &__image-container {
     display: flex;
     justify-content: center;
     background-color: $white;
+    border-top: 1px solid $light-green;
+
     &--vector {
       height: 130px;
-      margin: 40px;
+      margin: 10px;
     }
   }
   &__card-bodyone {
     padding: 20px 20px;
     background-color: rgba($color: $silver, $alpha: 0.5);
-    height: 260px;
+    height: 280px;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
 
@@ -59,6 +117,9 @@
       font-family: lato-bold;
       font-size: 1.5rem;
       margin: 0;
+      padding-bottom: 10px;
+      width: 185px;
+      border-bottom: 3px solid $white;
     }
     &--description {
       font-family: lato-regular;

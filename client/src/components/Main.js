@@ -3,9 +3,13 @@ import fern from "../assets/Images/fern.jpg";
 import papas from "../assets/Images/papas.jpg";
 import plants from "../assets/Illustrations/plants.svg";
 import grooming from "../assets/Images/grooming.jpg";
+import face from "../assets/Icons/face.svg";
+import ecuador from "../assets/Icons/ecuador.svg";
+import garden from "../assets/Icons/garden.svg";
 import asesoria from "../assets/Illustrations/Mujer_(Verde2).svg";
 import mantenimiento from "../assets/Illustrations/Carretilla.svg";
 import instalacion from "../assets/Illustrations/Huerto-Hombre.svg";
+import divider4 from "../assets/Illustrations/divider4.svg";
 import { Link } from "react-router-dom";
 
 function Main() {
@@ -13,26 +17,28 @@ function Main() {
     <main className="main">
       <div className="main__tiles">
         <div className="main__tiles--tileo">
-          <h2 className="main__tiles--title">500</h2>
-          <h3 className="main__tiles--sub">Clientes Satisfechos</h3>
+          <img className="main__tiles--image" src={face} alt="Sembrana" />
+          <h3 className="main__tiles--sub"> 500+ Clientes Satisfechos</h3>
         </div>
         <div className="main__tiles--tile">
-          <h2 className="main__tiles--title">500</h2>
-          <h3 className="main__tiles--sub">Clientes Satisfechos</h3>
+          <img className="main__tiles--image" src={ecuador} alt="Sembrana" />
+          <h3 className="main__tiles--sub">
+            Instalaciones Dentro de 13 Provincias
+          </h3>
         </div>
         <div className="main__tiles--tileo">
-          <h2 className="main__tiles--title">500</h2>
-          <h3 className="main__tiles--sub">Clientes Satisfechos</h3>
+          <img className="main__tiles--image" src={garden} alt="Sembrana" />
+          <h3 className="main__tiles--sub">1000+ Huertos Instalados</h3>
         </div>
       </div>
       <div className="main__first-container">
         <div className="main__first-container--text">
           <h1 className="main__first-container--title">Quienes Somos</h1>
           <h2 className="main__first-container--sub">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-            repudiandae laborum earum, id sit assumenda. Mollitia soluta ratione
-            amet nisi ab praesentium, perspiciatis voluptatum neque porro sunt
-            error deserunt facere?
+            Instalación de huertos orgánicos en tu vivienda. Conecta como nunca
+            antes, con las plantas que alimentan a tu familia. Con nuestros
+            huertos orgánicos, tu buena nutrición nace en tu propia casa. Del
+            huerto a la mesa, y en tu salud para siempre
           </h2>
           <Link to="/historia">
             <button className="main__first-container--button">
@@ -43,13 +49,20 @@ function Main() {
         <div className="main__first-container--icon">
           <img
             className="main__first-container--vector"
-            src={fern}
+            src={papas}
             alt="Sembrana"
           />
         </div>
       </div>
       <div className="main__second-container">
-        <h1 className="main__second-container--title">Ofrecemos</h1>
+        <div className="main__second-container--title-container">
+          <h1 className="main__second-container--title">Ofrecemos</h1>
+          <img
+            className="main__second-container--divider"
+            src={divider4}
+            alt="Sembrana"
+          />
+        </div>
         <div className="main__second-container--cardcontainer">
           <div className="main__second-container--card">
             <img
@@ -96,7 +109,7 @@ function Main() {
         </div>
       </div>
       <div className="main__banner-container">
-        <div className="main__banner-container--image">Come Saludable</div>
+        <div className="main__banner-container--image">Vive Saludable</div>
       </div>
     </main>
   );

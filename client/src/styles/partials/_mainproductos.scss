@@ -1,19 +1,19 @@
 .mainp {
   &__tiles {
     width: 100vw;
-    height: 116px;
+    height: 7.25rem;
     justify-content: space-between;
     display: flex;
     &--title {
       font-family: fertigo;
-      font-size: 20px;
+      font-size: 1.25rem;
       margin: 0;
     }
     &--sub {
       font-family: lato-bold;
     }
     &--tileo {
-      width: 480px;
+      width: 30rem;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -25,7 +25,7 @@
       }
     }
     &--tile {
-      width: 480px;
+      width: 30rem;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -40,12 +40,12 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 40px;
-    height: 550px;
+    padding: 1.25rem 2.5rem;
+    height: 34.375rem;
     background-color: rgba($color: $silver, $alpha: 0.1);
 
     &--text {
-      width: 650px;
+      width: 40.625rem;
     }
     &--title {
       font-family: fertigo;
@@ -54,31 +54,41 @@
     &--sub {
       font-family: lato-regular;
       font-size: 1.25rem;
+      width: 34.875rem;
     }
-    &--button {
-      font-family: lato-bold;
-      background-color: $white;
-      font-size: 1rem;
-      border: none;
-      width: 150px;
-      height: 40px;
-      border-radius: 2px;
-      &:hover {
-        color: $white;
-        background: $dark-grey;
-      }
-    }
+
     &--carousel {
+      height: 28.4375rem;
+      width: 41.25rem;
     }
-    &--slide {
-      display: flex;
-      height: 455px;
-      width: 660px;
+    &--carousel-container {
     }
     &--vector {
-      height: 455px;
-      width: 660px;
-      border-radius: 8px;
+      height: 28.4375rem;
+      width: 41.25rem;
+      border-radius: 0.5rem;
+    }
+  }
+  &__button-container {
+    position: relative;
+    &--back {
+      position: absolute;
+      height: 50px;
+      width: 3.125rem;
+      bottom: 11.5625rem;
+      background: 0;
+      border: 0;
+      outline: none;
+    }
+    &--next {
+      position: absolute;
+      height: 3.125rem;
+      width: 3.125rem;
+      bottom: 11.5625rem;
+      right: 0;
+      background: 0;
+      border: 0;
+      outline: none;
     }
   }
   &__banner-container {
@@ -86,28 +96,42 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 200px;
+    height: 12.5rem;
     font-family: fertigo;
     color: $white;
-    font-size: 50px;
+    font-size: 3.125rem;
     &--image {
-      border-top: 2px solid $light-green;
-      border-bottom: 2px solid $light-green;
+      border-top: 0.125rem solid $light-green;
+      border-bottom: 0.125rem solid $light-green;
       display: flex;
       justify-content: center;
       align-items: center;
       background-color: rgba($black, 0.3);
-      height: 200px;
+      height: 12.5rem;
       width: 100vw;
     }
   }
   &__second-container {
-    padding: 20px 40px;
+    padding: 1.25rem 2.5rem;
+    height: 40.625rem;
+
+    &--title-container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
 
     &--title {
       font-family: fertigo;
       font-size: 2.25rem;
       text-align: center;
+      margin: 0;
+    }
+
+    &--divider {
+      width: 20.875rem;
+      align-self: center;
+      margin: 1.25rem;
     }
     &--cardcontainer {
       display: flex;
@@ -119,7 +143,7 @@
       flex-direction: column;
     }
     &--image {
-      height: 200px;
+      height: 12.5rem;
     }
     &--label {
       font-family: lato-bold;
@@ -127,7 +151,7 @@
     &--sublabel {
       font-family: lato-regular;
       font-size: 1rem;
-      width: 300px;
+      width: 14.75rem;
       text-align: center;
     }
   }

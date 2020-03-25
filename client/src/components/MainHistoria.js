@@ -10,25 +10,24 @@ function MainHistoria() {
       <div className="mainh__description">
         <div className="mainh__description--frame">
           <p className="mainh__description--p">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repudiandae, recusandae ullam eum provident tempora aliquam culpa
-            quod laudantium non. Consequuntur voluptas rerum eius aperiam error
-            cum tempora voluptates quos vero. Lorem ipsum dolor sit amet
-            consectetur
+            Sembrana nació de una pregunta, como podemos propagar la
+            sustentabilidad, dar a nuestros usuarios la habilidad de crecer sus
+            propios vegetales y mejorar la estética de su hogar al mismo tiempo?
+            Después de varios meses de consideración Sembrana fue creado.
           </p>
           <p className="mainh__description--p">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repudiandae, recusandae ullam eum provident tempora aliquam culpa
-            quod laudantium non. Consequuntur voluptas rerum eius aperiam error
-            cum tempora voluptates quos vero. Lorem ipsum dolor sit amet
-            consectetur
+            La misión de Sembrana siempre ha sido crear una comunidad consciente
+            y asegurar un futuro verde y sustentable para las futuras
+            generaciones. A través del trabajo que estamos haciendo, estamos
+            ayudando a que nuestros clientes tengan la habilidad de crecer sus
+            verduras.
           </p>
           <p className="mainh__description--p">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repudiandae, recusandae ullam eum provident tempora aliquam culpa
-            quod laudantium non. Consequuntur voluptas rerum eius aperiam error
-            cum tempora voluptates quos vero. Lorem ipsum dolor sit amet
-            consectetur
+            Seguiremos con nuestra misión mientras podamos hacerlo, siempre
+            dispuestos a ayuda a nuestra comunidad y al planeta al mismo tiempo.
+            A través de Sembrana, nuestros clientes pueden obtener verduras
+            frescas, vivir de una manera más sustentable y decorar su hogar con
+            nuestras plantas.
           </p>
         </div>
       </div>
@@ -39,13 +38,12 @@ function MainHistoria() {
         <h2 className="mainh__main--title">NOS IMPORTA TU SALUD</h2>
         <img className="mainh__main--divider" src={divider} alt="Sembrana" />
         <p className="mainh__main--text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-          doloribus rem, ullam accusamus officiis quidem illum corporis impedit
-          repellat vero dolorem iure, veniam consequatur! Ea ab consectetur ut
-          fugiat sint! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Inventore et quam facilis eaque, consectetur saepe quasi iste
-          pariatur, sed voluptas perferendis! Sunt repellat aspernatur neque
-          laboriosam cum in illo tenetur!
+          En Sembrana lo más importante para nosotros eres tú! Queremos darte
+          toda la información y respaldo necesario para que tengas la habilidad
+          de cumplir tus metas. Nuestro plan ideal es capacitar a nuestros
+          clientes para que ellos tengan la habilidad de crear, mantener y
+          últimamente cosechar las verduras para que las puedas compartir con
+          tus seres queridos.
         </p>
       </div>
       <div className="mainh__banner">

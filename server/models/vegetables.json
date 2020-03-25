@@ -16,11 +16,83 @@
     "description": "Los pimientos están compuestos principalmente por agua y después por los hidratos de carbono, su aporte calórico y proteico es muy bajo, aunque es una buena fuente de fibra. Entre las vitaminas tenemos que destacar las del tipo A, E, B1, B2 y B3, además del ácido fólico."
   },
   {
-    "id": "1",
-    "name": "Tomate",
-    "latin": "(Solanum lycopersicum)",
+    "id": "3",
+    "name": "Berenjena",
+    "latin": "(Solanum melongena)",
     "image": "",
     "nutrition": "Valor Nutricional",
-    "description": "Además de su rico sabor, en el tomate encontramos muy pocas calorías, derivadas en el 74% de los carbohidratos complejos que lo componen. Casi no tiene grasas y tiene un alto contenido acuoso que supera el 90%. A continuación vemos el análisis nutricional del tomate, comenzando por los macronutrientes, es decir, hidratos, proteínas y grasas."
+    "description": "Además tiene pocas grasas y proteínas. Entre las vitaminas podemos destacar las del tipo E, A, C, B1, B2. Los minerales que más destacan son el hierro, magnesio, calcio, fósforo y potasio. Así mismo es rica en Ácido fólico, fibra y carbohidratos."
+  },
+  {
+    "id": "4",
+    "name": "Calabaza",
+    "latin": "(Cucurbita maxima)",
+    "image": "",
+    "nutrition": "Valor Nutricional",
+    "description": "La calabaza tiene un elevadísimo contenido en agua, alrededor del 92%, por lo que es una hortaliza muy baja en calorías, aporta alrededor del 25-30 kcal. Su aporte en proteínas también es reducido, alrededor de 1 gramo, es más rico en carbohidratos, y cuanto más dulce sea la calabaza más poseerá."
+  },
+  {
+    "id": "5",
+    "name": "Champiñon",
+    "latin": "(Agaricus bisporus)",
+    "image": "",
+    "nutrition": "Valor Nutricional",
+    "description": "El champiñón es fuente de vitaminas del grupo B, necesaria para el correcto funcionamiento del sistema nervioso. También constituye un buen aporte de zinc y de selenio, y aquí es donde destaca el champiñón entre veganos y en personas sometidas a regímenes de adelgazamiento o con problemas de exceso de colesterol."
+  },
+  {
+    "id": "6",
+    "name": "Col",
+    "latin": "(Brassica oleracea var. capitata)",
+    "image": "",
+    "nutrition": "Valor Nutricional",
+    "description": "La familia de las coles es amplia y todos sus miembros son ricos en vitaminas y minerales y compuestos de gran efecto protector para nuestro organismo. Hace siglos que las coles están presentes en las cocinas de todo el mundo. Originarias de Europa, en muchos países, durante el invierno las coles han sido uno de los principales sustentos."
+  },
+  {
+    "id": "7",
+    "name": "Frejol",
+    "latin": "(Phaseolus vulgaris)",
+    "image": "",
+    "nutrition": "Valor Nutricional",
+    "description": "Pueden reducir el riesgo de enfermedades cardiovasculares y el colesterol gracias a la fibra soluble que contiene. Previene enfermedades graves como el cáncer, ya que contiene altos niveles de antioxidantes. Aportan energía gracias a su elevado contenido en carbohidratos de lenta absorción. Mejora el sistema inmune."
+  },
+  {
+    "id": "8",
+    "name": "Lechuga",
+    "latin": "(Lactuca sativa)",
+    "image": "",
+    "nutrition": "Valor Nutricional",
+    "description": "Es un hecho que la lechuga contiene mucha agua. No menos del 95% de la lechuga incluye agua. Pero no hay nada malo en eso. La lechuga asegura la hidratación de tu organismo y una ensalada contribuye a proporcionarte los dos litros que deberías beber a diario. Debido a la gran cantidad de agua de la lechuga, sólo puedes consumirla fresca."
+  },
+  {
+    "id": "9",
+    "name": "Pepino",
+    "latin": "(Cucumis sativus)",
+    "image": "",
+    "nutrition": "Valor Nutricional",
+    "description": "El agua es su principal componente y sus valores energéticos y nutritivos son bajos, con los que se suele usar bastante en las dietas hipocalóricas. Entre las vitaminas las que más destacan son el ácido fólico y la vitamina C. Lo mismo sucede con los minerales. El potasio, el fósforo y el calcio son los más destacables. Aportando en menor cantidad magnesio, hierro y zinc."
+  },
+  {
+    "id": "10",
+    "name": "Remolacha",
+    "latin": "(Beta vulgaris)",
+    "image": "",
+    "nutrition": "Valor Nutricional",
+    "description": "Entre las verduras y hortalizas que tenemos disponibles de forma habitual en el mercado, se encuentra la remolacha. La remolacha es la raíz grande y carnosa que crece en la planta del mismo nombre. Su color es entre rosáceo a violáceo y su sabor es dulce, debido a su contenido en azúcares."
+  },
+  {
+    "id": "11",
+    "name": "Zanahoria",
+    "latin": "(Daucus carota)",
+    "image": "",
+    "nutrition": "Valor Nutricional",
+    "description": "La zanahoria es una de las hortalizas más consumidas en nuestra región gracias a su disponibilidad y aceptación por parte de niños y adultos. Como todas las verduras, la zanahoria es un alimento de excelente calidad, aportando una gran cantidad de nutrientes necesarios para la salud."
+  },
+  {
+    "id": "12",
+    "name": "Gengibre",
+    "latin": "(Zingiber officinale)",
+    "image": "",
+    "nutrition": "Valor Nutricional",
+    "description": "El jengibre es un planta perenne que pertenece al género Zingiber, de la familia de las zingiberáceas. Sus tallos tienen apariencia de hojas de color rojizo. La planta de jengibre puede alcanzar una altura de hasta 1,8m. Las hojas son lanceoladas. Las flores del jengibre tienen un color blanquecino y crecen formando espigas."
   }
 ]

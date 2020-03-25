@@ -3,18 +3,18 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 616.312px;
+  height: 38.5195rem;
   &__main-container {
     background-color: rgba($black, 0.3);
     width: 100vw;
-    height: 616.312px;
+    height: 38.5195rem;
   }
   &__text-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 616.312px;
-    padding: 65px 0 0 200px;
+    height: 38.5195rem;
+    padding: 4.0625rem 0 0 12.5rem;
     &--title {
       font-family: fertigo;
       color: $white;
@@ -24,7 +24,7 @@
     &--subtitle {
       font-family: lato-bold;
       color: $white;
-      margin-top: 10px;
+      margin-top: 0.625rem;
     }
   }
 }

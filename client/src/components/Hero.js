@@ -7,7 +7,7 @@ function Hero() {
         <div className="hero__text-container">
           <h1 className="hero__text-container--title">Sembrana</h1>
           <h2 className="hero__text-container--subtitle">
-            De tu huerto a la mesa.
+            Del huerto a la mesa
           </h2>
         </div>
       </div>
