@@ -3,7 +3,7 @@
 
 ## About
 
-[Academic Project - Capstone Project] - I created a SPA (single page application) site for my capstone project. This website was created for a company called Sembrana located in Quito, Ecuador. This project demonstrates my proficiency in React, React-Router, Node, Express, API's as well as other front-end and back-end essentials. This project was completed in two weeks.
+[Capstone Project] - I created a SPA (single page application) site for my capstone project. This website was created for a company called Sembrana located in Quito, Ecuador. This project demonstrates my proficiency in React, React-Router, Node, Express, API's as well as other front-end and back-end essentials. This project was completed in two weeks.
 
 ## Goals and Requirements
 
