@@ -46,6 +46,6 @@ _**Make sure to install npm in both the client and server folder**_
 $npm run dev
 ```
 
-![screen](https://github.com/Philip-93/philip-bertogg-brainflix/blob/master/Images/Desktop.png)
+![screen](https://github.com/Philip-93/Sembrana/blob/master/Images/Screenshot.png)
 
 <h6 align="Center">*Open project and resize browser to see responsiveness across mobile, tablet and desktop settings*</h6>
