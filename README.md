@@ -1,5 +1,5 @@
 <p align="left
-"><img src="Images/Logo-brainflix.png" align="center"></p>
+"><img src="Images/logo.png" align="center"></p>
 
 ## About
 
@@ -26,26 +26,25 @@ My goal was to build a full stack single page application from the ground up. To
 
 ### Setup
 
- **1.** Navigate to the client folder in your terminal and install npm like this:
+**1.** Navigate to the client folder in your terminal and install npm like this:
 
 ```
 $ npm install
 ```
 
- **2.** Navigate to the server folder in your terminal and install npm like this:
+**2.** Navigate to the server folder in your terminal and install npm like this:
 
 ```
 $ npm install
 ```
 
-*__Make sure to install npm in both the client and server folder__*
+_**Make sure to install npm in both the client and server folder**_
 
- **3.** While in your server folder run the following:
+**3.** While in your server folder run the following:
 
 ```
 $npm run dev
 ```
-
 
 ![screen](https://github.com/Philip-93/philip-bertogg-brainflix/blob/master/Images/Desktop.png)
 
