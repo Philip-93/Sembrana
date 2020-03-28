@@ -1184,8 +1184,24 @@ body {
           justify-content: space-between;
 }
 
+.contacto__first-container--nombre::-webkit-input-placeholder {
+  color: #08544d;
+}
+
+.contacto__first-container--nombre:-ms-input-placeholder {
+  color: #08544d;
+}
+
+.contacto__first-container--nombre::-ms-input-placeholder {
+  color: #08544d;
+}
+
+.contacto__first-container--nombre::placeholder {
+  color: #08544d;
+}
+
 .contacto__first-container--nombre {
-  border: 2px solid rgba(175, 175, 175, 0.8);
+  border: 2px solid #08544d;
   outline: none;
   width: 22.5rem;
   height: 4.0625rem;
@@ -1199,8 +1215,24 @@ body {
   border: 0.125rem solid #68c63c;
 }
 
+.contacto__first-container--telephono::-webkit-input-placeholder {
+  color: #08544d;
+}
+
+.contacto__first-container--telephono:-ms-input-placeholder {
+  color: #08544d;
+}
+
+.contacto__first-container--telephono::-ms-input-placeholder {
+  color: #08544d;
+}
+
+.contacto__first-container--telephono::placeholder {
+  color: #08544d;
+}
+
 .contacto__first-container--telephono {
-  border: 2px solid rgba(175, 175, 175, 0.8);
+  border: 2px solid #08544d;
   outline: none;
   width: 360px;
   height: 65px;
@@ -1224,9 +1256,25 @@ body {
           flex-direction: column;
 }
 
+.contacto__second-container--email::-webkit-input-placeholder {
+  color: #08544d;
+}
+
+.contacto__second-container--email:-ms-input-placeholder {
+  color: #08544d;
+}
+
+.contacto__second-container--email::-ms-input-placeholder {
+  color: #08544d;
+}
+
+.contacto__second-container--email::placeholder {
+  color: #08544d;
+}
+
 .contacto__second-container--email {
   outline: none;
-  border: 2px solid rgba(175, 175, 175, 0.8);
+  border: 2px solid #08544d;
   height: 65px;
   border-radius: 5px;
   padding: 15px;
@@ -1238,9 +1286,25 @@ body {
   border: 2px solid #68c63c;
 }
 
+.contacto__second-container--req::-webkit-input-placeholder {
+  color: #08544d;
+}
+
+.contacto__second-container--req:-ms-input-placeholder {
+  color: #08544d;
+}
+
+.contacto__second-container--req::-ms-input-placeholder {
+  color: #08544d;
+}
+
+.contacto__second-container--req::placeholder {
+  color: #08544d;
+}
+
 .contacto__second-container--req {
   outline: none;
-  border: 2px solid rgba(175, 175, 175, 0.8);
+  border: 2px solid #08544d;
   height: 130px;
   border-radius: 5px;
   padding: 15px;
@@ -1258,7 +1322,7 @@ body {
   height: 45px;
   -ms-flex-item-align: end;
       align-self: flex-end;
-  background-color: rgba(175, 175, 175, 0.8);
+  background-color: #68c63c;
   color: #ffffff;
   border-radius: 5px;
   font-size: 18px;
@@ -1268,11 +1332,11 @@ body {
 }
 
 .contacto__second-container--button:active, .contacto__second-container--button:hover {
-  background-color: #68c63c;
+  background-color: #08544d;
 }
 
 .contacto__phone {
-  background-color: rgba(175, 175, 175, 0.3);
+  border: 2px solid #08544d;
 }
 
 .contacto__phone--container {

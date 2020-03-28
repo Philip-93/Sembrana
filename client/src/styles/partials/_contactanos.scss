@@ -57,8 +57,11 @@
   &__first-container {
     display: flex;
     justify-content: space-between;
+    &--nombre::placeholder {
+      color: $dark-green;
+    }
     &--nombre {
-      border: 2px solid rgba($silver, 0.8);
+      border: 2px solid $dark-green;
       outline: none;
       width: 22.5rem;
       height: 4.0625rem;
@@ -70,8 +73,11 @@
         border: 0.125rem solid $light-green;
       }
     }
+    &--telephono::placeholder {
+      color: $dark-green;
+    }
     &--telephono {
-      border: 2px solid rgba($silver, 0.8);
+      border: 2px solid $dark-green;
       outline: none;
       width: 360px;
       height: 65px;
@@ -88,9 +94,12 @@
   &__second-container {
     display: flex;
     flex-direction: column;
+    &--email::placeholder {
+      color: $dark-green;
+    }
     &--email {
       outline: none;
-      border: 2px solid rgba($silver, 0.8);
+      border: 2px solid $dark-green;
       height: 65px;
       border-radius: 5px;
       padding: 15px;
@@ -101,9 +110,12 @@
         border: 2px solid $light-green;
       }
     }
+    &--req::placeholder {
+      color: $dark-green;
+    }
     &--req {
       outline: none;
-      border: 2px solid rgba($silver, 0.8);
+      border: 2px solid $dark-green;
       height: 130px;
       border-radius: 5px;
       padding: 15px;
@@ -119,7 +131,7 @@
       width: 90px;
       height: 45px;
       align-self: flex-end;
-      background-color: rgba($silver, 0.8);
+      background-color: $light-green;
       color: $white;
       border-radius: 5px;
       font-size: 18px;
@@ -128,12 +140,12 @@
       border: none;
       &:active,
       &:hover {
-        background-color: $light-green;
+        background-color: $dark-green;
       }
     }
   }
   &__phone {
-    background-color: rgba($silver, 0.3);
+    border: 2px solid $dark-green;
     &--container {
       padding: 20px 40px;
     }
